@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <title>Sign In / Sign Up</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f5f5f5;
+        }
+
+        .container {
+            width: 900px;
+            height: 550px;
+            margin: 50px auto;
+            display: flex;
+            background: white;
+            box-shadow: 0 5px 20px #aaa;
+        }
+
+        /* LEFT SIDE */
+        .signin {
+            width: 50%;
+            text-align: center;
+            padding: 70px 60px;
+        }
+
+        .signin h1 {
+            font-size: 40px;
+            margin-bottom: 30px;
+        }
+
+        .social {
+            margin-bottom: 25px;
+        }
+
+        .social span {
+            display: inline-block;
+            border: 1px solid #ddd;
+            border-radius: 50%;
+            width: 45px;
+            height: 45px;
+            padding-top: 12px;
+            margin: 0 5px;
+            font-weight: bold;
+        }
+
+        .signin p {
+            color: #777;
+        }
+
+        input {
+            width: 100%;
+            padding: 15px;
+            margin: 10px 0;
+            border: none;
+            background: #edf0f5;
+            font-size: 16px;
+        }
+
+        .forgot {
+            margin: 20px 0;
+            color: #555;
+        }
+
+        .btn {
+            background: #ff4b25;
+            color: white;
+            border: none;
+            padding: 15px 60px;
+            border-radius: 30px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        /* RIGHT SIDE */
+        .signup {
+            width: 50%;
+            background: #ff3b2f;
+            color: white;
+            text-align: center;
+            padding: 180px 50px;
+        }
+
+        .signup h1 {
+            font-size: 38px;
+            margin-bottom: 20px;
+        }
+
+        .signup p {
+            font-size: 17px;
+            line-height: 1.5;
+            margin-bottom: 30px;
+        }
+
+        .signup .btn {
+            background: transparent;
+            border: 2px solid white;
+            padding: 14px 70px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- Sign In -->
+        <div class="signin">
+
+            <h1>Sign in</h1>
+
+            <div class="social">
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-google-plus-g"></i>
+                <i class="fa-brands fa-linkedin-in"></i>
+            </div>
+
+            <p>or use your account</p>
+
+            <input type="email" placeholder="Email">
+
+            <input type="password" placeholder="Password">
+
+            <div class="forgot">
+                Forgot your password?
+            </div>
+
+            <button class="btn">SIGN IN</button>
+
+        </div>
+
+
+        <!-- Sign Up -->
+        <div class="signup">
+
+            <h1>Hello, Friend!</h1>
+
+            <p>
+                Enter your personal details and start
+                journey with us
+            </p>
+
+            <button class="btn">SIGN UP</button>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
